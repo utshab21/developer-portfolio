@@ -16,13 +16,18 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width:50%;
     padding-left:10%;
+    padding-right: 10%;
 }
 .half-width img{
-    width:70%;
+    width:100%;
+    padding-left: 10%;
+    
+    padding-top: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +41,15 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.tag-button{
+    color: orange;
+}
+.Web{
+    color: red;
+}
+.Dream-Big{
+    background-image:url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
 }
